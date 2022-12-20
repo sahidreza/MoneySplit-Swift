@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         billTextField.endEditing(true)
         zeroPctButton.isSelected = false
         tenPctButton.isSelected = false
-        tenPctButton.isSelected = false
+        twentyPctButton.isSelected = false
         sender.isSelected = true
         
         let buttonTitle = sender.currentTitle!
