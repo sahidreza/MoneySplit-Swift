@@ -13,6 +13,9 @@
 		D1361E14294F4C940060FD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1361E12294F4C940060FD57 /* Main.storyboard */; };
 		D1361E16294F4C960060FD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1361E15294F4C960060FD57 /* Assets.xcassets */; };
 		D1361E19294F4C960060FD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1361E17294F4C960060FD57 /* LaunchScreen.storyboard */; };
+		D1B4C68129518EE2009441CB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4C68029518EE2009441CB /* ResultViewController.swift */; };
+		D1B4C68429519610009441CB /* MoneySplitBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4C68329519610009441CB /* MoneySplitBrain.swift */; };
+		D1B4C6862951AE38009441CB /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B4C6852951AE37009441CB /* Split.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D1361E15294F4C960060FD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1361E18294F4C960060FD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1361E1A294F4C960060FD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B4C68029518EE2009441CB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D1B4C68329519610009441CB /* MoneySplitBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySplitBrain.swift; sourceTree = "<group>"; };
+		D1B4C6852951AE37009441CB /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				D1361E0C294F4C940060FD57 /* AppDelegate.swift */,
 				D1361E0E294F4C940060FD57 /* SceneDelegate.swift */,
-				D1361E10294F4C940060FD57 /* ViewController.swift */,
-				D1361E12294F4C940060FD57 /* Main.storyboard */,
+				D1B4C682295195EC009441CB /* Model */,
+				D1B4C67E29518E9E009441CB /* View */,
+				D1B4C67F29518EAA009441CB /* Controller */,
 				D1361E15294F4C960060FD57 /* Assets.xcassets */,
 				D1361E17294F4C960060FD57 /* LaunchScreen.storyboard */,
 				D1361E1A294F4C960060FD57 /* Info.plist */,
 			);
 			path = "Money-Split";
+			sourceTree = "<group>";
+		};
+		D1B4C67E29518E9E009441CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1361E12294F4C940060FD57 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1B4C67F29518EAA009441CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1361E10294F4C940060FD57 /* ViewController.swift */,
+				D1B4C68029518EE2009441CB /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1B4C682295195EC009441CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1B4C68329519610009441CB /* MoneySplitBrain.swift */,
+				D1B4C6852951AE37009441CB /* Split.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +174,9 @@
 				D1361E11294F4C940060FD57 /* ViewController.swift in Sources */,
 				D1361E0D294F4C940060FD57 /* AppDelegate.swift in Sources */,
 				D1361E0F294F4C940060FD57 /* SceneDelegate.swift in Sources */,
+				D1B4C68429519610009441CB /* MoneySplitBrain.swift in Sources */,
+				D1B4C6862951AE38009441CB /* Split.swift in Sources */,
+				D1B4C68129518EE2009441CB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
